@@ -14,13 +14,13 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ```
 try:
-    # Taking 3 elements input from the user
+   
     L = []
     for i in range(3):
         item = ['laptop','mobile','pen']
         L.append(item)
 
-    # Trying to access index 4
+   
     print(L[4])
 
 except IndexError:
